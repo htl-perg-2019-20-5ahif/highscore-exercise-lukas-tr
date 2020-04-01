@@ -1,5 +1,14 @@
 # Highscore Exercise
 
+## how to work with the Docker-related assets
+
+```bash
+cd highscore-exercise
+docker-compose up --build
+```
+
+---
+
 ## Introduction
 
 You have a given browser game and your job is to add the possibility to store a highscore list for it. You have to slightly extend the game (not the core part of this exercise), write a backend for storing and querying highscores (including automated tests), and package everything up in Docker containers.
